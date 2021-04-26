@@ -41,6 +41,9 @@ console.log(cognomeUtente);
 var colore = prompt("Qual'è il tuo colore preferito?");
 console.log(colore);
 
+//salvare la password in una variabile, per poterla riutilizzare
+var password = nomeUtente + cognomeUtente + colore + "21";
+console.log(password);
 
 //Infine scrivi sulla pagina nomecognomecolorepreferito21
-document.getElementById("password_utente").innerHTML = nomeUtente + cognomeUtente + colore + "21";
+document.getElementById("password_utente").innerHTML = password;
